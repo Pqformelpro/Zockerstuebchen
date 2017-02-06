@@ -1,0 +1,102 @@
+body {
+    background-color: #33393b;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+#header {
+    background-color: #272c2d;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#header_page_name {
+    background-color: #272c2d;
+    width: 20%;
+    float: left;
+}
+
+#header_menu {
+    background-color: #272c2d;
+    width: 80%;
+    float: left;
+}
+
+#header_menu p {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#header_menu_about_us {
+    background-color: #272c2d;
+    float: left;
+    width: 25%;
+}
+
+#header_menu_about_us:hover {
+    background-color: #33393b;
+}
+
+#header_menu_csgo {
+    background-color: #272c2d;
+    float: left;
+    width: 25%;
+}
+
+#header_menu_csgo:hover {
+    background-color: #33393b;
+}
+
+#header_menu_wow {
+    background-color: #272c2d;
+    float: left;
+    width: 25%;
+}
+
+#header_menu_wow:hover {
+    background-color: #33393b;
+}
+
+#header_menu_contact {
+    background-color: #272c2d;
+    float: left;
+    width: 25%;
+}
+
+#header_menu_contact:hover {
+    background-color: #33393b;
+}
+
+
+
+
+/*
+// Example of an animation where text slides in from the right
+
+
+#header p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
